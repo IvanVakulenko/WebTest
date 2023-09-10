@@ -8,7 +8,7 @@
     "start": "node index.js",
     "dev": "node index.js"
   },
-  "keywords": [],
+  "keywords": ["api"],
   "author": "",
   "license": "ISC",
   "dependencies": {
