@@ -29,7 +29,7 @@ const App = () => {
         <NavBar/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/home/:name' element={<HomeLogin />} />
+          <Route path='/home/' element={<HomeLogin />} />
           <Route path='/registration' element={<Registration />} /> 
           <Route path='/tests/create' element={<CreateTest />} />
           <Route path='/tests/details/:id' element={<ShowTest />} />
