@@ -11,7 +11,7 @@ export function UserProvider({ children }) {
   useEffect(() => {
     if (!user) {
       axios
-        .get(`http://localhost:5555/users/${name}`,)
+        .get(`https://web-test-cskj.vercel.app//users/${name}`,)
         .then(({ data }) => {
           setUser(data);
         })

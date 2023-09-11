@@ -20,7 +20,7 @@ const EditTest = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:5555/tests/${id}`)
+      .get(`https://web-test-cskj.vercel.app/tests/${id}`)
       .then((response) => {
         setTestData(response.data);
         setLoading(false);
