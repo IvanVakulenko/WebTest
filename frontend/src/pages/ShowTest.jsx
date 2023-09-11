@@ -88,7 +88,7 @@ const ShowTest = () => {
                 <ul>
                   {test.questions.map((question, index) => (
                     <li key={index}>
-                      <strong>Question {index + 1}:</strong> {question.text}
+                      <strong>{index + 1}:</strong> {question.text}
                       <ul>
                         {question.options.map((option, optionIndex) => (
                           <li
