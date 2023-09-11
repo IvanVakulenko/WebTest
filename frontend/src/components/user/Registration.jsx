@@ -46,7 +46,7 @@ const Register = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
-        <BackButton />
+        {/* <BackButton /> */}
         <h2 className="text-2xl font-semibold mb-4">Registration</h2>
         <form onSubmit={handleRegistrateUser}>
           <div className="mb-4">

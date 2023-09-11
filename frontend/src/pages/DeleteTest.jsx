@@ -14,7 +14,7 @@ const DeleteTest = () => {
   const handleDeleteTest = () => {
     setLoading(true);
     axios
-      .delete(`https://web-test-cskj.vercel.app/tests/${id}`)
+      .delete(`https://web-test-ffhg.vercel.app/tests/${id}`)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Test Deleted successfully', { variant: 'success' });

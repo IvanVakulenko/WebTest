@@ -49,7 +49,7 @@ const CreateTests = () => {
 
     setLoading(true);
     axios
-      .post('https://web-test-cskj.vercel.app/tests/test', data)
+      .post('https://web-test-ffhg.vercel.app/tests/test', data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Test Created successfully', { variant: 'success' });

@@ -20,7 +20,7 @@ const EditTest = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`https://web-test-cskj.vercel.app/tests/${id}`)
+      .get(`https://web-test-ffhg.vercel.app/tests/${id}`)
       .then((response) => {
         setTestData(response.data);
         setLoading(false);
@@ -35,7 +35,7 @@ const EditTest = () => {
   const handleEditTest = () => {
     setLoading(true);
     axios
-      .put(`http://localhost:5555/tests/${id}`, testData)
+      .put(`https://web-test-ffhg.vercel.app/tests/${id}`, testData)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Test Edited successfully', { variant: 'success' });

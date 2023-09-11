@@ -14,7 +14,7 @@ const ShowTest = () => {
 
   useEffect(() => {
     axios
-      .get(`https://web-test-cskj.vercel.app/tests/${id}`)
+      .get(`https://web-test-ffhg.vercel.app/tests/${id}`)
       .then((response) => {
         setTest(response.data);
         setLoading(false);
