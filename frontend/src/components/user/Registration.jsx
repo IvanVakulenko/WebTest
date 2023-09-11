@@ -26,7 +26,7 @@ const Register = () => {
     const { name, email, password } = formData;
     setLoading(true);
     try {
-      await axios.post('http://localhost:5555/users/registration', {
+      await axios.post('https://web-test-ffhg.vercel.app/users/registration', {
         name,
         email,
         password

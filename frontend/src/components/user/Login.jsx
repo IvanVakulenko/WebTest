@@ -29,7 +29,7 @@ const Login = () => {
     
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5555/users/auth', {
+      const response = await axios.post('https://web-test-ffhg.vercel.app/users/auth', {
         email,
         password,
       });
