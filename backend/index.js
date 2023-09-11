@@ -48,4 +48,4 @@ mongoose
   });
 
 
-module.exports = connect
+export default app;
