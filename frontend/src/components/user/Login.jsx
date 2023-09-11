@@ -36,7 +36,7 @@ const Login = () => {
       setLoading(false);
       if (response.status === 200) {
         enqueueSnackbar('User logged in successfully', { variant: 'success' });
-        navigate(`/home/${response.data.name}`);
+        navigate('/home/');
       } else {
         enqueueSnackbar('Authentication failed. Please check your email and password.', { variant: 'error' });
       }
