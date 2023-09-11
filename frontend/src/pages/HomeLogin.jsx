@@ -25,7 +25,7 @@ const HomeLogin = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get('http://localhost:5555/tests')
+      .get('https://web-test-ffhg.vercel.app/tests')
       .then((response) => {
         setTests(response.data.data);
         setLoading(false);
