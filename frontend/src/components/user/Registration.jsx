@@ -33,7 +33,7 @@ const Register = () => {
       });
       setLoading(false);
       enqueueSnackbar('User Created successfully', { variant: 'success' });
-      navigate(`/home/${name}`);
+      navigate('/home');
     } catch (error) {
       setLoading(false);
       enqueueSnackbar('Error', { variant: 'error' });
