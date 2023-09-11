@@ -43,7 +43,9 @@ git clone https://github.com/IvanVakulenko/WebTest.git
 - cd fronted
 - npm install
 
-4. запустіть окремо сервер та клієнт в двух терміналах:
+4. Змінити axios запроси на посиланням http://localhost:5555 для використання серверної частини
+
+5. запустіть окремо сервер та клієнт в двух терміналах:
 
 - cd backend 
 - npm run dev
@@ -51,4 +53,4 @@ git clone https://github.com/IvanVakulenko/WebTest.git
 - npm run dev
 
 
-5. Відкрийте браузер та перейдіть за посиланням http://localhost:5173 для використання веб-сайту.
+6. Відкрийте браузер та перейдіть за посиланням http://localhost:5173 для використання веб-сайту.
